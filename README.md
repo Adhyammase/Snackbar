@@ -8,8 +8,10 @@ allprojects {
         maven { url 'https://jitpack.io' }
     }
 }
+
+
 And then add the dependency in your gradle file:
 
 dependencies {
-  implementation 'com.github.Adhyammase:Snackbar:1.0.0'
+    implementation 'com.github.Adhyammase:Snackbar:1.0.0'
 }
